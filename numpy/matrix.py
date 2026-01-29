@@ -1,9 +1,10 @@
 import numpy as np
 
 
-a = np.zeros((2, 3, 3))
+a = np.zeros((3, 4))
+print(f"->\n{a}\n<-\n")
 # all 0s matrix
-print(np.zeros((2, 3, 3)))
+print(np.zeros((2, 3)))
 print('\n')
 
 # all 1s matrix
